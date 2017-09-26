@@ -33,4 +33,4 @@ In this assignment, you'll create another fun and interactive game for web brows
 * Each crystal should have a random hidden value between 1 - 12.
 
 
-<img width="800" alt="Crystals Collector Game" src="https://kbowen200247.github.io/Psychic-Game/assets/images/crystalscollector_gamejavascript.png">
+<img width="800" alt="Crystals Collector Game" src="https://kbowen200247.github.io/week-4-game/assets/images/crystalscollector_gamejavascript.png">
