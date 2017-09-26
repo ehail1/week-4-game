@@ -14,9 +14,10 @@ $(document).ready(function(){
 		matchscore = Math.floor((Math.random() * 101) + 19);
 		console.log(matchscore);
 		$("#matchscores").text(matchscore);
+    // here you make a new colorcounts value but never put it anywhere
 		colorcounts = (Math.floor(Math.random() * 11) + 1);
 		yourscore = 0;
-      	$("#scores").text(yourscore);
+    $("#scores").text(yourscore);
 	}
 
     for (var i = 0; i < colorcrystals.length; i++) {
@@ -24,6 +25,7 @@ $(document).ready(function(){
       	var imagecrystal = $("<img>");
       	imagecrystal.attr("src", colorcrystals[i]);
       	imagecrystal.addClass("crystal-image");
+        // need to update this one each element
       	imagecrystal.attr("data-crystalvalue", colorcounts);
       	$("#colorcrystal").append(imagecrystal);
     }
@@ -31,7 +33,7 @@ $(document).ready(function(){
     $(".crystal-image").on("click", function() {
 		var crystalValue = ($(this).attr("data-crystalvalue"));
       	crystalValue = parseInt(crystalValue);
-		console.log(matchscore);
+		    console.log(matchscore);
       	yourscore += crystalValue;
       	console.log(yourscore);
       	$("#scores").text(yourscore);
