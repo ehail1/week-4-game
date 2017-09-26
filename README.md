@@ -4,7 +4,7 @@
 
 In this assignment, you'll create another fun and interactive game for web browsers. This time, your app must dynamically update your HTML pages with the jQuery library.
 
-# CrystalsCollector Game
+## Crystals Collector Game
 
 * There will be four crystals displayed as buttons on the page.
 
